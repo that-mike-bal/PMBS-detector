@@ -1,0 +1,160 @@
+{
+  "PRD_Evaluation_Rubric": {
+    "categories": [
+      {
+        "name": "Alignment with Business Objectives",
+        "quality_levels": {
+          "Total BS": "A document living in its own universe. Makes bold claims about market dominance with zero connection to actual business strategy. Like someone built a product roadmap without ever speaking to leadership or understanding company goals.",
+          "Fair Amount of BS": "Strategic objectives mentioned as a formality, then promptly forgotten. Features listed without explaining their connection to business outcomes. Stakeholders will waste hours in meetings trying to figure out why they're building any of this.",
+          "Some BS Detected": "Makes gestures toward business alignment with vague references to 'driving growth' or 'expanding market share' without specifying which metrics matter or by how much. The connection is there but too tenuous to drive real alignment.",
+          "Mostly BS Free": "Shows clear understanding of business objectives with most requirements tied to strategic goals. Some targets remain implied rather than explicitly quantified. The 'why' is mostly clear, though a few items need tighter connections.",
+          "Absolutely Zero BS": "Every single requirement explicitly connected to specific strategic goals with measurable KPIs. A perfect line of sight from company strategy to product features. Even the CEO would immediately understand how this product drives business outcomes."
+        }
+      },
+      {
+        "name": "Clarity and Comprehensiveness",
+        "quality_levels": {
+          "Total BS": "A document apparently written in a different language and then poorly translated. Critical information missing, contradictions everywhere, structure non-existent. Reading it actively makes you less informed than before you started.",
+          "Fair Amount of BS": "Frustratingly vague to the point of uselessness. Every section raises more questions than it answers. The author seems confused about their own ideas, and now everyone else is too. Will require endless clarification meetings.",
+          "Some BS Detected": "Islands of clarity in a sea of ambiguity. Product scope might be clear while timelines float in the void. You could build something from this document, but it won't be what anyone actually intended.",
+          "Mostly BS Free": "Generally clear with only minor gaps that won't derail implementation. All key components present, though some details require clarification. Engineers can get started while PM answers the few remaining questions.",
+          "Absolutely Zero BS": "A masterpiece of clarity where every element is precisely articulated. Scope, timeline, roles, and deliverables detailed with surgical precision. Could be handed to a new team member who would immediately understand exactly what to build and why."
+        }
+      },
+      {
+        "name": "User-Centricity",
+        "quality_levels": {
+          "Total BS": "Users? What users? A document written as if customers are theoretical constructs rather than actual humans with needs. Features appear to have been pulled from a hat or copied from competitors without any consideration of user problems.",
+          "Fair Amount of BS": "Pays lip service to users before launching into features the team wants to build. Technical specifications dominate with barely a mention of actual user needs. The perfect document for building a product no one asked for.",
+          "Some BS Detected": "Makes an attempt at user-centricity but relies more on assumptions than evidence. Some pain points identified, but they feel like educated guesses rather than insights from actual research. The user exists here, but as a shadowy figure.",
+          "Mostly BS Free": "Genuinely user-focused with most features tied to validated user needs. Research informs most decisions, though some newer user segments lack the same depth of understanding. Shows good but not perfect customer empathy.",
+          "Absolutely Zero BS": "Built entirely around meticulously researched customer personas and validated use cases. Every single feature addresses a documented user pain point with supporting evidence. The user's voice echoes through every page."
+        }
+      },
+      {
+        "name": "Actionability",
+        "quality_levels": {
+          "Total BS": "A collection of inspirational quotes masquerading as product direction. Consists entirely of lofty aspirations with zero practical guidance. Development teams would literally have no idea where to begin. Might as well hand them a book of poetry.",
+          "Fair Amount of BS": "Requirements so vague they could be interpreted in a dozen different ways. The perfect setup for the PM to say 'that's not what I meant' after weeks of development. Will lead to wasted effort and missed deadlines.",
+          "Some BS Detected": "Provides a starting point but leaves too much open to interpretation. Technical teams will need to fill in substantial blanks and make assumptions that may or may not be correct. Prepare for mid-sprint pivots.",
+          "Mostly BS Free": "Gives clear direction with only a few areas needing additional detail. Development teams can confidently move forward on most tasks, with just occasional clarification needed. Implementation risks are minimal.",
+          "Absolutely Zero BS": "Requirements so clear and detailed that teams can start building immediately with complete confidence. Each feature includes specific acceptance criteria and implementation guidance. The path from document to product is perfectly illuminated."
+        }
+      },
+      {
+        "name": "Performance Metrics",
+        "quality_levels": {
+          "Total BS": "Success apparently defined as 'vibes' and 'good feelings.' Contains zero measurable targets and no way to determine if the product actually accomplished anything. When asked 'how will we know if this worked?' the author would stare blankly.",
+          "Fair Amount of BS": "Throws around buzzwords like 'engagement' and 'delighting users' without defining what they mean or how they'll be measured. Metrics chosen seem arbitrary and disconnected from business outcomes.",
+          "Some BS Detected": "Acknowledges the need for measurement but remains frustratingly vague. Mentions 'improved performance' without specifying targets or measurement approaches. Shows awareness of metrics but lacks follow-through.",
+          "Mostly BS Free": "Defines clear success metrics for most key areas with specific targets. Measurement methodologies mostly explained, though a few metrics could use more precise definitions or benchmarks.",
+          "Absolutely Zero BS": "A metrics masterclass with specific, quantifiable success criteria tied directly to business outcomes. Includes exact targets (e.g., '15% increase in retention') with crystal clear measurement methodologies and tracking plans."
+        }
+      },
+      {
+        "name": "Collaboration",
+        "quality_levels": {
+          "Total BS": "A document created in perfect isolation, as if the author is the only person in the company. No evidence that engineering, design, or any other function has even seen it, let alone contributed. Will cause widespread shock when shared.",
+          "Fair Amount of BS": "The collaboration equivalent of a dictator asking 'any questions?' at the end of a speech. Other teams' perspectives are fundamentally misunderstood, creating serious disconnects between expectations and reality.",
+          "Some BS Detected": "Shows signs of obligatory, last-minute input gathering. Engineering comments tacked on rather than integrated, design considerations superficial. Like asking for feedback after the decision's already been made.",
+          "Mostly BS Free": "Reflects genuine collaboration with most key stakeholders, though some perspectives (like customer support or sales) may be underrepresented. Most cross-functional concerns addressed before finalization.",
+          "Absolutely Zero BS": "A symphony of cross-functional collaboration with documented input from all relevant teams. Every stakeholder's expertise visibly incorporated and acknowledged. The document itself demonstrates how to build alignment."
+        }
+      },
+      {
+        "name": "Conciseness",
+        "quality_levels": {
+          "Total BS": "War and Peace but less entertaining and with no plot. So bloated with irrelevant tangents that finding actual information is like searching for a needle in a haystack of other needles. Will cause physical pain to anyone attempting to read it all.",
+          "Fair Amount of BS": "Drowning in unnecessary detail and repetition. Reading it feels like being trapped in a meeting that should have been an email, which itself should have been a text message. Information density approaching zero.",
+          "Some BS Detected": "Contains useful information but buried under layers of fluff. Stakeholders will skim sections, potentially missing important details hidden between unnecessary paragraphs. Needs an editor with a heavy hand.",
+          "Mostly BS Free": "Generally concise with only occasional wordiness. Information well-organized enough that stakeholders can quickly find what they need without wading through irrelevance.",
+          "Absolutely Zero BS": "A masterpiece of information efficiency where every single word earns its place. Perfectly structured for quick reference with zero fluff. Respects readers' time while providing all necessary information."
+        }
+      },
+      {
+        "name": "Prioritization",
+        "quality_levels": {
+          "Total BS": "According to this document, everything is top priority and should be done immediately. The prioritization equivalent of a five-alarm fire in every room. Teams would have absolutely no idea what to tackle first, guaranteed paralysis.",
+          "Fair Amount of BS": "Priorities shift like sand dunes in a windstorm. What's critical on page 2 seems forgotten by page 4. Stakeholders frequently contradict earlier prioritization without explanation, making planning impossible.",
+          "Some BS Detected": "Attempts prioritization but creates confusion with multiple conflicting 'must-haves' without clear rationale. Like being told ten different things are 'the most important' without explanation of why or in what order.",
+          "Mostly BS Free": "Provides clear prioritization for most features with reasonable justification. A few items lack explicit ranking explanations, but teams would generally understand what to tackle first and why.",
+          "Absolutely Zero BS": "Prioritization so clear it could be taught in business schools. Features precisely ranked with compelling rationale for each decision. Distinguishes between 'must-have' and 'nice-to-have' with crystal clear criteria that everyone can understand."
+        }
+      }
+    ]
+  },
+  "Product_Strategy_Rubric": {
+    "categories": [
+      {
+        "name": "Vision & Purpose",
+        "quality_levels": {
+          "Total BS": "A vision apparently generated by throwing buzzwords into a blender. No discernible purpose beyond sounding important in meetings. Will inspire nothing but confusion and eye-rolling from anyone who reads it.",
+          "Fair Amount of BS": "So vague it could apply to literally any product in the industry. 'Improve payments' without any explanation of how or why anyone should care. Provides no real direction or inspiration.",
+          "Some BS Detected": "Contains the outline of a vision but lacks depth or inspiration. Uses generic language that fails to capture what's truly distinctive or meaningful about the product's purpose.",
+          "Mostly BS Free": "Presents a clear and mostly inspiring direction with minor gaps in execution details. Paints a compelling future but could more precisely articulate the product's unique role in achieving it.",
+          "Absolutely Zero BS": "A vision so clear and inspiring it could motivate teams through the toughest challenges. Perfectly aligned with company mission while painting an ambitious but achievable future that everyone can rally behind."
+        }
+      },
+      {
+        "name": "Market Analysis",
+        "quality_levels": {
+          "Total BS": "Market analysis that could have been written by someone who's never used the internet or spoken to a human. Pure conjecture without a shred of research. Competitor and customer insights apparently based on dreams or hallucinations.",
+          "Fair Amount of BS": "Superficial observations anyone could make from a 5-minute Google search. No real segmentation, trend analysis, or proprietary insights. The equivalent of saying 'people like easy-to-use products' and calling it analysis.",
+          "Some BS Detected": "Shows basic understanding of the market landscape but relies heavily on generalizations. Limited supporting data and customer insights feel anecdotal rather than systematic.",
+          "Mostly BS Free": "Presents solid market analysis with good research backing most conclusions. Some areas could go deeper, particularly around emerging opportunities or more nuanced customer segments.",
+          "Absolutely Zero BS": "A comprehensive, data-driven market analysis that could rival professional research firms. Detailed segmentation, quantified opportunities, and insights that reveal true customer understanding and market foresight."
+        }
+      },
+      {
+        "name": "Competitive Positioning",
+        "quality_levels": {
+          "Total BS": "Acts as if competitors don't exist or matter. Presents the product as 'revolutionary' without acknowledging similar solutions already in market. The competitive equivalent of wearing blinders and earplugs.",
+          "Fair Amount of BS": "Acknowledges competitors exist but offers no substantive differentiation. Hand-waves about being 'better' somehow, without explaining why customers would choose this product over established alternatives.",
+          "Some BS Detected": "Makes claims about differentiation but remains frustratingly vague about specific advantages. Competitors analyzed superficially without detailed comparison points.",
+          "Mostly BS Free": "Establishes a clear value proposition with specific differentiation points from key competitors. Could more thoroughly explain some competitive advantages or address potential competitive responses.",
+          "Absolutely Zero BS": "Competitive positioning sharp enough to cut glass. Articulates precisely why customers would choose this product over any alternative, backed by evidence and with a realistic assessment of competitive threats and responses."
+        }
+      },
+      {
+        "name": "Product Goals",
+        "quality_levels": {
+          "Total BS": "Goals so vague they might as well be 'do good things' and 'make users happy.' Success apparently defined as 'crushing it.' No measurable targets anywhere to be found.",
+          "Fair Amount of BS": "Fuzzy goals without concrete metrics or timeframes. Impossible to determine if these goals are ever achieved because they're not actually defined in any measurable way.",
+          "Some BS Detected": "Goals exist but remain too broad or generic. Mentions 'growth' and 'user satisfaction' without specific targets or timelines for achievement.",
+          "Mostly BS Free": "Most goals are specific and measurable with defined timelines. Some could use more precise quantification or tighter alignment with broader company strategy.",
+          "Absolutely Zero BS": "Goals that perfectly balance ambition with specificity. Each objective is measurable, timebound, and directly aligned with company strategy. Includes clear KPIs that make success unambiguous."
+        }
+      },
+      {
+        "name": "Execution Plan",
+        "quality_levels": {
+          "Total BS": "An execution plan consisting entirely of 'and then magic happens.' No concrete steps, resource considerations, or timeline. Pure wishful thinking masquerading as strategy.",
+          "Fair Amount of BS": "Vague initiatives mentioned without coherent roadmap or timeline. Essentially a list of hopes and dreams with no practical path to achieving them.",
+          "Some BS Detected": "Outlines basic execution steps but lacks critical elements like clear prioritization, resource requirements, or risk mitigation. More of a wishlist than an actionable plan.",
+          "Mostly BS Free": "Presents a detailed roadmap with well-defined initiatives and timelines. Resource planning mostly solid, though risk mitigation strategies could use strengthening in some areas.",
+          "Absolutely Zero BS": "A masterclass in execution planning with precisely defined initiatives, resource requirements, timelines, and contingency plans. Anticipates challenges and provides clear mitigation strategies."
+        }
+      },
+      {
+        "name": "Stakeholder Alignment",
+        "quality_levels": {
+          "Total BS": "Created in a hermetically sealed chamber with apparent contempt for other teams' input. Will cause open rebellion when engineering, design, and sales discover what they're supposedly building.",
+          "Fair Amount of BS": "Major disconnects between departments evident throughout. Product, engineering, and go-to-market teams clearly have entirely different understandings of what's being built and why.",
+          "Some BS Detected": "Shows signs of selective stakeholder consultation. Some perspectives incorporated, but the document still primarily reflects a single department's viewpoint without true integration.",
+          "Mostly BS Free": "Good alignment with most key stakeholders, though certain departments (like customer support or security) may be underrepresented. Most cross-functional concerns addressed.",
+          "Absolutely Zero BS": "A perfect example of cross-functional alignment with documented input from every relevant team. All stakeholders see their concerns addressed and would readily endorse the strategy as their own."
+        }
+      },
+      {
+        "name": "Clarity & Focus",
+        "quality_levels": {
+          "Total BS": "A disorganized mess of contradictory ideas and tangents. Reading it is like watching someone try to solve five different puzzles simultaneously while blindfolded. Reader finishes more confused than when they started.",
+          "Fair Amount of BS": "Cluttered with irrelevant details and excessive jargon. Core message buried beneath mountains of fluff. Forces readers to play detective to find the actual point.",
+          "Some BS Detected": "Some sections are clear while others meander. Strategic message diluted by unnecessary details or tangents that distract from the main narrative.",
+          "Mostly BS Free": "Generally clear and focused with good structure throughout most of the document. A few sections could be more concise or better organized to strengthen the overall narrative.",
+          "Absolutely Zero BS": "A model of clarity and focus where every element reinforces the core strategy. Information perfectly structured for comprehension with zero distractions. Would make professional editors weep with joy."
+        }
+      }
+    ]
+  }
+}
